@@ -1,0 +1,96 @@
+#<!-- METADATA START --> # DO NOT DELETE THIS LINE
+# All example text is surrounded with <ex> and </ex>. Please replace the example
+# text including the <ex> and </ex> with your data. Delete all non-applicable
+# lines and sections.
+
+# Attention: indentation is important and must be preserved!
+
+# information on the study the to-be-archived dataset was created for
+
+# mandatory information on to-be-archived dataset
+dataset:
+  # short name or label
+  name: Transdural recordings of the primary motor cortex in the behaving monkey
+
+  # current location of the dataset
+  location: https://github.com/jsheunis/Transdural-recordings-M1-monkey
+
+  # summary of purpose and content of the dataset
+  description:
+    "This dataset contains extracellular recordings (using a multielectrode microdrive) from seven independently movable electrodes in the primary motor cortex (M1) of a single monkey. The monkey performed a delayed center-out reaching task which involved three different task conditions that differed in the amount of initial target information available to the monkey. Online spike sorting resulted in up to seven simultaneously recorded single-unit spike trains. On each recording day, all three conditions were presented to the monkey so that the responses of individual neurons can be compared across conditions. Further information about this dataset and its contents and methods is provided in the accompanying academic publication."
+
+  # optional list of employed standard and format
+  # for automatic generation of rich metadata records
+  # (see handbook for full list)
+
+  # optional list of keyword/phrase
+  keyword:
+    - Delayed center-out reaching task
+    - Monkey
+    - Transdural electrodes
+    - Primary motor cortex
+    - Spike trains
+    - Spiking attractor model
+
+
+  # minimum of one dataset author required
+  author:
+    - a@example.com
+    - b@example.com
+    - c@example.com
+    - d@example.com
+    - mnawrot@uni-koeln.de
+
+  # optional list of entities that funded the creation of
+  # the dataset. This might also be a single value, i.e.:
+  #`` funding: NIH´´.
+  funding:
+    - German Research Foundation (DFG), DFG-SFB 1451 (Project-ID 431549029)
+    - German Research Foundation (DFG), Institutional Strategy of the University of Cologne within the German Excellence Initiative (DFG-ZUK 81/1)
+    - EU Horizon 2020 Framework Programme for Research and Innovation, Grant agreement number 945539 (Human Brain Project SGA3)
+
+
+# one or more publications on or using the dataset, optional
+publication:
+  - title: "Spiking attractor model of motor cortex explains modulation of neural and behavioral variability by prior target information"
+    author:
+      - a@example.com
+      - b@example.com
+      - c@example.com
+      - d@example.com
+      - mnawrot@uni-koeln.de
+    # when published
+    year: 2022
+    # all other properties are optional
+    # highly recommended to provide a DOI
+    doi: https://doi.org/10.21203/rs.3.rs-1337724/v1
+    # journal name or publication venue label
+    publication: Research Square
+
+# person information, one record for every email-key used above
+person:
+  a@example.com:
+     given_name: Vahid
+     last_name: Rostami
+     orcid-id: 0000-0002-3851-0220
+  
+  b@example.com:
+     given_name: Thomas
+     last_name: Rost
+  
+  c@example.com:
+     given_name: Alexa
+     last_name: Riehle
+     orcid-id: 0000-0001-5890-3999
+  
+  d@example.com:
+     given_name: Sacha
+     last_name: van Albada
+     orcid-id: 0000-0003-0682-4855
+  
+  mnawrot@uni-koeln.de:
+     given_name: Martin
+     last_name: Nawrot
+     orcid-id: 0000-0001-6398-6370
+
+#<!-- METADATA END -->  # DO NOT DELETE THIS LINE
